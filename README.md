@@ -8,4 +8,4 @@ Attention
 exam.rar file contains all the css files, plugins and images.
 ----------------------------
 
-Hi, all! Those who can't add question, remove users and remove quiz. Telling them, i can able to figure out this problem. This problem in update.php. There are very small mistakes. In update.php line number 9, 21, 40 and 55 ,($_SESSION['key']=='suryapinky') here just change 'suryapinky' instead 'admin'.   If anyone want to help from me, so you have to pay 5 dollars after the work (I'm busy for my work, that's why it's  not free(: ). thank you!..
+Hi, all! Those who can't add question, remove users and remove quiz. Telling them, i can able to figure out this problem. This problem in update.php. There are very small mistakes. In update.php line number 9, 21, 40 and 55 ,($_SESSION['key']=='suryapinky') here just change 'suryapinky' instead 'admin'.
