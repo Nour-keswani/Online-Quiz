@@ -78,7 +78,17 @@ INSERT INTO `answer` (`qid`, `ansid`) VALUES
 ('5b142266c525c', '5b142266cd369'),
 ('5b14226711d91', '5b14226719fb1'),
 ('5b1422674286d', '5b1422674a9ee'),
-('5b1422677371f', '5b1422677b3fc');
+('5b1422677371f', '5b1422677b3fc'),
+('627911441a5c7', '627911441abeb'),
+('627911441c657', '627911441cb18'),
+('627911441e253', '627911441e765'),
+('627911441fe89', '6279114420333'),
+('6279114422170', '6279114422592'),
+('627911442451b', '6279114425e27'),
+('627911442b1ed', '627911442c356'),
+('627911442e933', '627911442ee21'),
+('627911443056e', '62791144309cf'),
+('62791144320bb', '627911443258d');
 
 -- --------------------------------------------------------
 
@@ -210,7 +220,39 @@ INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES
 ('5b1422677371f', '127.0.0.0', '5b1422677b3e9'),
 ('5b1422677371f', '1.0.0.127', '5b1422677b3f7'),
 ('5b1422677371f', '127.0.0.1', '5b1422677b3fc'),
-('5b1422677371f', '127.0.0.255', '5b1422677b400');
+('5b1422677371f', '127.0.0.255', '5b1422677b400'),
+('627911441a5c7', 'Wanneer individuen of organisaties de wet overtreden door computers te gebruiken op illegale wijze toegang te krijgen tot een computersysteem', '627911441abe9'),
+('627911441a5c7', 'Een stukje kwaadaardige code dat is geschreven door programmeurs en wordt gebruikt om gegevens en systemen te corrumperen', '627911441abeb'),
+('627911441a5c7', 'Wanneer een werknemer in strijd is met de ICT-praktijkcode van het bedrijf, bijv. het aangemelde werkstation verlaten', '627911441abec'),
+('627911441c657', 'Een barrière tussen internet en een privécomputer die bedreigingen zoals virussen blokkeert', '627911441cb18'),
+('627911441c657', 'Een mechanisme dat is ontworpen om een beveiligingsrisico te detecteren, te voorkomen of te herstellen', '627911441cb1a'),
+('627911441c657', 'Een dienst die de beveiliging van de gegevensverwerkingssystemen en de gegevensoverdracht van een organisatie verbetert', '627911441cb1b'),
+('627911441e253', 'Snake', '627911441e763'),
+('627911441e253', 'Fish', '627911441e764'),
+('627911441e253', 'Trojan', '627911441e765'),
+('627911441e253', 'Horse', '627911441e766'),
+('627911441fe89', 'Bubbeltjesplastic', '6279114420332'),
+('627911441fe89', 'Encryptie', '6279114420333'),
+('627911441fe89', 'E-mailbijlagen', '6279114420334'),
+('6279114422170', 'Pharming', '6279114422590'),
+('6279114422170', 'Smishing', '6279114422591'),
+('6279114422170', 'phishing', '6279114422592'),
+('6279114422170', 'Hacken', '6279114422593'),
+('627911442451b', 'Is hetzelfde als phishing', '6279114425e24'),
+('627911442451b', 'Een manier om het privéleven van de gebruiker te zoeken', '6279114425e25'),
+('627911442451b', 'De e-maillink waarop u klikt, leidt u naar een nepwebsite', '6279114425e26'),
+('627911442451b', 'Wanneer u de juiste URL typt, wordt u doorverwezen naar een nepwebsite', '6279114425e27'),
+('627911442b1ed', 'True', '627911442c356'),
+('627911442b1ed', 'False', '627911442c359'),
+('627911442e933', 'Is een applicatie die informatie uitzendt naar de server', '627911442ee20'),
+('627911442e933', 'Is een software die uw gebruik op de computer kan controleren', '627911442ee21'),
+('627911442e933', 'Is spionagesoftware die alleen door detectives wordt gebruikt?', '627911442ee22'),
+('627911442e933', 'Is een database om gebruikersinformatie vast te leggen', '627911442ee23'),
+('627911443056e', 'True', '62791144309cf'),
+('627911443056e', 'False', '62791144309d2'),
+('62791144320bb', 'Via sociale media netwerken opbouwen', '627911443258c'),
+('62791144320bb', 'Selecteer het antwoord:Via online en offline contact gegevens bemachtigen', '627911443258d'),
+('62791144320bb', 'Selecteer het antwoord:Met een groep mensen software ontwikkelen', '627911443258e');
 
 -- --------------------------------------------------------
 
@@ -252,8 +294,17 @@ INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES
 ('5b141f1e8399e', '5b142266c525c', 'What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 255.255.255.224 subnet mask?', 4, 7),
 ('5b141f1e8399e', '5b14226711d91', 'You need to subnet a network that has 5 subnets, each with at least 16 hosts. Which classful subnet mask would you use?', 4, 8),
 ('5b141f1e8399e', '5b1422674286d', 'You have an interface on a router with the IP address of 192.168.192.10/29. Including the router interface, how many hosts can have IP addresses on the LAN attached to the router interface?', 4, 9),
-('5b141f1e8399e', '5b1422677371f', 'To test the IP stack on your local host, which IP address would you ping?\r\n\r\n', 4, 10);
-
+('5b141f1e8399e', '5b1422677371f', 'To test the IP stack on your local host, which IP address would you ping?\r\n\r\n', 4, 10),
+('62791013a9b04', '627911441a5c7', 'Welke van de volgende omschrijvingen zou het beste een virus omschrijven?', 3, 1),
+('62791013a9b04', '627911441c657', 'Welke van de volgende zou een firewall het beste beschrijven?', 3, 2),
+('62791013a9b04', '627911441e253', 'Antivirussoftware wordt op systemen geïnstalleerd om virussen te detecteren en te verwijderen. Welke van de volgende zijn een type virus?', 4, 3),
+('62791013a9b04', '627911441fe89', 'Een manier waarop gegevens kunnen worden beschermd, is door het volgende te gebruiken:', 3, 4),
+('62791013a9b04', '6279114422170', 'Wanneer een gebruiker een e-mail ontvangt die hen naar een onbetrouwbare website leidt om de gegevens van de gebruiker te krijgen, wordt er gebeld?', 4, 5),
+('62791013a9b04', '627911442451b', 'Wat is Pharming?', 4, 6),
+('62791013a9b04', '627911442b1ed', 'Anti spyware can prevent your computer from being monitored?', 2, 7),
+('62791013a9b04', '627911442e933', 'Wat is spyware?', 4, 8),
+('62791013a9b04', '627911443056e', 'Wanneer een persoon een sms ontvangt en wordt gevraagd om de link te volgen om de prijs te claimen, wordt dit Smishing genoemd?', 2, 9),
+('62791013a9b04', '62791144320bb', 'Wat is social engineering?', 3, 10);
 -- --------------------------------------------------------
 
 --
@@ -275,7 +326,8 @@ CREATE TABLE `quiz` (
 
 INSERT INTO `quiz` (`eid`, `title`, `sahi`, `wrong`, `total`, `date`) VALUES
 ('5b141b8009cf0', 'Php & Mysqli', 3, 1, 10, '2018-06-03 16:46:56'),
-('5b141f1e8399e', 'Ip Networking', 3, 1, 10, '2018-06-03 17:02:22');
+('5b141f1e8399e', 'Ip Networking', 3, 1, 10, '2018-06-03 17:02:22'),
+('62791013a9b04', 'ICT-Security', 10, 2, 10, '2022-05-09 14:58:59');
 
 -- --------------------------------------------------------
 
